@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url("https://source.unsplash.com/1600x1900/?landscape");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-p{
+    display: flex;
+    align-items: center;
+}
+
+.box-m{
+    margin-top: 20px;
+}
+.box-g{
+    background-color: rgb(170, 170, 170);
+    padding: 60px;
+    font-size: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.input-cidade{
+    height: 30px;
+    width: 300px;
+}
+
+.titulo-cidade{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.graus{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.umidade{
+    margin-top: 10px;
+}
+
+.previsao-texto::first-letter{
+    text-transform: uppercase;
+}
